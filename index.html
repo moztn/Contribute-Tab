@@ -46,15 +46,17 @@
 		<div id="wrapper">
 
 <header id="masthead">
-        <a id="tabzilla" href="http://www.mozilla.org/" class="tabzilla-closed" role="button" aria-expanded="false" aria-controls="tabzilla-panel" title="Liens Mozilla">Mozilla</a>
+        <a id="tabzilla" href="http://www.mozilla.org/" class="tabzilla-closed" role="button" aria-expanded="false" aria-controls="tabzilla-panel" title="Liens 
+
+Mozilla">Mozilla</a>
 
                 <nav role="navigation" id="nav-main">
           <span tabindex="0" aria-controls="nav-main-menu" role="button" class="toggle">Menu</span>
           <ul id="nav-main-menu">
-            <li class="first"><a href="https://www.mozilla.org/en-US/mission/">Mission</a></li>
-            <li><a href="https://www.mozilla.org/en-US/about/">About</a></li>
-            <li><a href="https://www.mozilla.org/en-US/products/">Products</a></li>
-            <li class="last"><a href="https://www.mozilla.org/en-US/contribute/">Get Involved</a></li>
+            <li class="first"><a href="https://www.mozilla.org/en-US/mission/" data-l10n-id="mission">Mission</a></li>
+            <li><a href="https://www.mozilla.org/en-US/about/" data-l10n-id="about">About</a></li>
+            <li><a href="https://www.mozilla.org/en-US/products/" data-l10n-id="products">Products</a></li>
+            <li class="last"><a href="https://www.mozilla.org/en-US/contribute/" data-l10n-id="contribute">Get Involved</a></li>
           </ul>
         </nav>
         
@@ -63,12 +65,12 @@
 
 			<div id="main-pager" class="pager pager-with-tabs">
 				<ul class="pager-tabs pager-selected-mobile">
-					<li><a class="selected" href="#welcome">Welcome</a></li>
-					<li><a class="" href="#dev">Developper</a></li>
-					<li><a class="" href="#trad">Localization</a></li>
-					<li><a class="" href="#design">Design</a></li>
-					<li><a class="" href="#support">Support</a></li>
-					<li><a class="" href="#marketing">Marketing</a></li>
+					<li><a class="selected" href="#welcome" data-l10n-id="welcome">Welcome</a></li>
+					<li><a class="" href="#dev" data-l10n-id="developer">Developper</a></li>
+					<li><a class="" href="#trad" data-l10n-id="localization">Localization</a></li>
+					<li><a class="" href="#design" data-l10n-id="design">Design</a></li>
+					<li><a class="" href="#support" data-l10n-id="support">Support</a></li>
+					<li><a class="" href="#marketing" data-l10n-id="marketing">Marketing</a></li>
 				</ul>
 				<div class="billboard">
 					<div style="opacity: 1;" class="pager-content pager-selected-mobile">
@@ -108,7 +110,7 @@
       <input name="newsletter" value="mozilla-and-you" type="hidden">
       <input name="source_url" value="http://www.mozilla.org/en-US/firefox/fx/" type="hidden">
 
-      <h3>Get Firefox news</h3>
+      <h3 data-l10n-id="get-ff-news">Get Firefox news</h3>
 
       <div class="form-contents">
         <div class="field field-email ">
@@ -118,17 +120,17 @@
         <div id="form-details">
                       <div class="field field-country">
               <select name="country" id="id_country">
-				<option value="dz">Algeria</option>
-				<option value="as">American Samoa</option>
-				<option value="be">Belgium</option>
-				<option value="eg">Egypt</option>
-				<option value="fr">France</option>
-				<option value="gf">French Guiana</option>
-				<option value="pf">French Polynesia</option>
-				<option value="tf">French Southern Territories</option>
-				<option value="ga">Gabon</option>
-				<option value="zw">Zimbabwe</option>
-				<option value="ax">Åland Islands</option>
+				<option value="dz" data-l10n-id="c-dz">Algeria</option>
+				<option value="as" data-l10n-id="c-as">American Samoa</option>
+				<option value="be" data-l10n-id="c-be">Belgium</option>
+				<option value="eg" data-l10n-id="c-eg">Egypt</option>
+				<option value="fr" data-l10n-id="c-fr">France</option>
+				<option value="gf" data-l10n-id="c-gf">French Guiana</option>
+				<option value="pf" data-l10n-id="c-pf">French Polynesia</option>
+				<option value="tf" data-l10n-id="tf">French Southern Territories</option>
+				<option value="ga" data-l10n-id="c-ga">Gabon</option>
+				<option value="zw" data-l10n-id="c-zw">Zimbabwe</option>
+				<option value="ax" data-l10n-id="c-ax">Åland Islands</option>
 			</select>
             </div>
                                 <div class="field field-language">
@@ -143,10 +145,16 @@
 </select>
             </div>
                     <div class="field field-format">
-            <label for="id_fmt_0"><input checked="checked" id="id_fmt_0" value="H" name="fmt" type="radio"> HTML</label><label for="id_fmt_1"><input id="id_fmt_1" value="T" name="fmt" type="radio"> Text</label>
+            <label for="id_fmt_0"><input checked="checked" id="id_fmt_0" value="H" name="fmt" type="radio"> HTML</label><label for="id_fmt_1"><input id="id_fmt_1" 
+
+value="T" name="fmt" type="radio"> Text</label>
           </div>
           <div class="field field-privacy ">
-            <label for="id_privacy" class="privacy-check-label"><input required="required" name="privacy" id="id_privacy" type="checkbox"> <span class="title">I’m okay with you handling this info as you explain in your <a href="http://www.mozilla.org/en-US/privacy-policy">Privacy Policy</a></span></label>
+            <label for="id_privacy" class="privacy-check-label"><input required="required" name="privacy" id="id_privacy" type="checkbox"> <span class="title"><span 
+
+data-l10n-id="agreement">I’m okay with you handling this info as you explain in your </span><a data-l10n-id="privacy-policy" href="http://www.mozilla.org/en-
+
+US/privacy-policy">Privacy Policy</a></span></label>
           </div>
         </div>
       </div>
@@ -155,7 +163,7 @@
         <input id="footer_email_submit" value="Sign me up&nbsp;»" class="button" type="submit">
 
         <p class="form-details">
-          <small>We will only send you Mozilla-related information.</small>
+          <small data-l10n-id="moz-related-info">We will only send you Mozilla-related information.</small>
         </p>
       </div>
     </form>
@@ -172,22 +180,24 @@
 
           <div class="footer-license">
               <p>
-                Portions of this content are ©1998–2013 by individual mozilla.org contributors. Content available under a <a href="http://www.mozilla.org/foundation/licensing/website-content.html">Creative Commons license</a>.              </p>
+                <span data-l10n-id="portions" >Portions of this content are ©1998–2013 by individual mozilla.org contributors. Content available under a</span> <a 
+
+href="http://www.mozilla.org/foundation/licensing/website-content.html" data-l10n-id="creative-licence">Creative Commons license</a>.              </p>
               <p>
-                <a href="http://www.mozilla.org/en-US/contribute/page/">Contribute to this page</a>
+                <a href="http://www.mozilla.org/en-US/contribute/page/" data-l10n-id="contribute-this-page">Contribute to this page</a>
               </p>
           </div>
           <ul class="footer-nav">
-            <li><a href="http://www.mozilla.org/en-US/about/contact.html#map-mountain_view">Contact Us</a></li>
-            <li><a href="http://www.mozilla.org/en-US/privacy/">Privacy Policy</a></li>
-            <li><a href="http://www.mozilla.org/en-US/about/legal.html">Legal Notices</a></li>
-            <li><a href="http://www.mozilla.org/en-US/legal/fraud-report/index.html">Report Trademark Abuse</a></li>
+            <li><a href="http://www.mozilla.org/en-US/about/contact.html#map-mountain_view" data-l10n-id="contact-us">Contact Us</a></li>
+            <li><a href="http://www.mozilla.org/en-US/privacy/" data-l10n-id="privacy">Privacy Policy</a></li>
+            <li><a href="http://www.mozilla.org/en-US/about/legal.html" data-l10n-id="legal">Legal Notices</a></li>
+            <li><a href="http://www.mozilla.org/en-US/legal/fraud-report/index.html" data-l10n-id="report">Report Trademark Abuse</a></li>
           </ul>
 
                     <ul class="footer-nav">
             <li><a href="http://twitter.com/firefox">Twitter</a></li>
             <li><a href="http://facebook.com/Firefox">Facebook</a></li>
-            <li><a href="https://affiliates.mozilla.org/">Firefox Affiliates</a></li>
+            <li><a href="https://affiliates.mozilla.org/" data-l10n-id="affiiates">Firefox Affiliates</a></li>
           </ul>
           
       </div>
@@ -216,4 +226,6 @@ $(document).ready(function() {
 });
 </script>
   
-<div class="crossrider-nofity-14917" index="0"></div><div class="crossrider-nofity-14917-top-left"></div><div class="crossrider-nofity-14917-top-right"></div><div class="crossrider-nofity-14917-bottom-left"></div><div class="crossrider-nofity-14917-bottom-right"></div></body></html>
+<div class="crossrider-nofity-14917" index="0"></div><div class="crossrider-nofity-14917-top-left"></div><div class="crossrider-nofity-14917-top-right"></div><div 
+
+class="crossrider-nofity-14917-bottom-left"></div><div class="crossrider-nofity-14917-bottom-right"></div></body></html>
