@@ -846,3 +846,8 @@
     position: fixed !important;
     pointer-events: auto !important;
 }
+
+.tab {
+  border: none !important;
+  text-decoration:none !important; 
+}
