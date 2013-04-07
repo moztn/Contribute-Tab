@@ -2370,3 +2370,7 @@ a.mozilla-video-control-overlay {
 
 .mozilla-video-player-content .video-download-links a, .mozilla-video-player-content .video-download-links a:link, .mozilla-video-player-content .video-download-links a:hover {
   color: #888; }
+.tab {
+  outline:none !important;
+  text-decoration:none !important;
+}
