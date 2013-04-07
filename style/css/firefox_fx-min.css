@@ -2374,3 +2374,88 @@ a.mozilla-video-control-overlay {
   outline:none !important;
   text-decoration:none !important;
 }
+
+
+.lang-zh-TW #moz15 .cta p, .lang-zh-CN #moz15 .cta p, .lang-zh-TW #moz15 .message, .lang-zh-CN #moz15 .message {
+  font-style: normal; }
+
+#moz15 .cta {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto; }
+
+#moz15 header {
+  position: relative;
+  width: 670px;
+  min-height: 170px;
+  margin: 0 auto 10px;
+  padding-left: 290px; }
+
+#moz15 header .intro {
+  font-family: 'Open Sans Light',sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 20px 0 20px 40px;
+  border-left: 1px solid #bebbb8; }
+
+#moz15 .cta {
+  width: 960px;
+  margin: 0 auto 40px;
+  text-align: center; }
+
+#moz15 .cta h2 {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: normal;
+  margin-bottom: .25em; }
+
+#moz15 .cta p {
+  width: 620px;
+  margin: 0 auto;
+  font: italic 18px 'Open Sans Light',sans-serif; }
+
+
+@media only screen and (min-width:760px) and (max-width:1000px) {
+  #moz15 {
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  #moz15 header {
+    width: 440px;
+    padding-left: 260px; }
+
+  #moz15 header .title {
+    left: 0;
+    top: 30px; }
+
+  #moz15 .cta {
+    width: 720px; }
+
+  #moz15 .cta p {
+    width: 460px; } }
+
+@media only screen and (max-width:760px) {
+  #moz15 header {
+    width: auto;
+    padding: 0 20px; }
+
+  #moz15 header .title {
+    position: static;
+    margin: 0 auto 20px; }
+
+  #moz15 header .intro {
+    padding: 20px 0 0;
+    border-left: 0;
+    border-top: 1px solid #bebbb8; }
+
+  #moz15 .cta {
+    width: auto;
+    padding: 20px 0 0;
+    margin: 20px 20px 30px;
+    border-top: 1px solid #bebbb8; }
+
+  #moz15 .cta p {
+    width: auto; } }
+
