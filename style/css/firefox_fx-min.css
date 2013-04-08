@@ -1591,7 +1591,7 @@ nav.menu-bar ol li:first-child a, nav.menu-bar ul li:first-child a {
   #wrapper {
     width: 320px; }
 
-  #masthead, #main-feature, #main-content, #colophon, .billboard, .container, .main-column, .sidebar {
+  #masthead, #main-feature, #main-content, #colophon, .billboard, .main-column, .sidebar {
     width: auto;
     padding-left: 10px;
     padding-right: 10px;
@@ -1792,7 +1792,7 @@ nav.menu-bar ol li:first-child a, nav.menu-bar ul li:first-child a {
   #wrapper {
     width: 440px; }
 
-  #masthead, #main-feature, #main-content, .billboard, .container, .main-column, .sidebar {
+  #masthead, #main-feature, #main-content, .billboard, .main-column, .sidebar {
     width: auto; }
 
   .main-column, .sidebar {
@@ -2256,6 +2256,9 @@ nav.menu-bar ol li:first-child a, nav.menu-bar ul li:first-child a {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
+
+.row-form {
+    margin-left: 1px;}
 
 .row {
   margin-left: -24px;
